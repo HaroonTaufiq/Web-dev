@@ -1,0 +1,78 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.input-field {
+  height: 2rem;
+  width: 14rem;
+  padding-left: 1rem;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.submit-button {
+  background-color: #333;
+  color: white;
+  border: 1px solid grey;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.submit-button:hover {
+  background-color: grey;
+}
+
+.data-container {
+  margin: 20px;
+}
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  color: white;
+}
+.data-table th,
+.data-table td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: left;
+}
+.data-table th {
+  background-color: #333;
+}
+.data-table tr:nth-child(even) {
+  background-color: #222;
+}
+.data-table tr:hover {
+  background-color: #444;
+}
+.data-item td {
+  color: white;
+}
+.edit-button,
+.delete-button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+.edit-button {
+  background-color: #069dcb;
+  color: white;
+}
+.edit-button:hover {
+  background-color: #025f7c;
+}
+.delete-button {
+  background-color: #564fd9;
+  color: white;
+}
+.delete-button:hover {
+  background-color: #1a0487;
+}
