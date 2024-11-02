@@ -1,0 +1,6 @@
+mongoimport --db mongo-exercises --collection courses --drop --file exercise-data.json --jsonArray
+
+mongoimport: To import data into mongo DB
+--db: supply
+mongo-exercises: name of database
+--jsonArray: data in form of jason array
